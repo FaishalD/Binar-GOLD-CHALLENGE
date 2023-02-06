@@ -1,23 +1,23 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .testimonial {
-    position: absolute;
-    height: 36px;
-    left: 32.36%;
-    right: 35.14%;
-    top: 1540px;
-    
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    /* identical to box height, or 150% */
-    
-    text-align: center;
-    
-    color: #000000; 
+  position: absolute;
+  height: 36px;
+  left: 32.36%;
+  right: 35.14%;
+  top: 1540px;
+
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  color: #000000;
 }

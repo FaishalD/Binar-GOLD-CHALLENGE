@@ -1,14 +1,14 @@
-.footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 86px;
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 86px;
 
-    position: absolute;
-    width: 1141px;
-    height: 128px;
-    left: 136px;
-    top: 2998px;
+  position: absolute;
+  width: 1141px;
+  height: 128px;
+  left: 136px;
+  top: 2998px;
 }

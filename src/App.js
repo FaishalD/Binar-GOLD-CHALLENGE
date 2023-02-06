@@ -1,27 +1,16 @@
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import './App.css';
-import Navigationbar from './components/Navigationbar';
-import Hero from './components/Hero';
-import Service from './components/Service';
-import Us from './components/Us';
-import Testi from './components/Testi';
-import Footer from './components/Footer';
-import "./css/nav.css"
-import "./css/hero.css"
-import "./css/service.css"
-import "./css/us.css"
-import "./css/testi.css"
-import "./css/footer.css"
+import Home from './pages/Home'
+import CariMobil from './pages/CariMobil';
 
 function App() {
   return (
-    <div>
-      <Navigationbar/>
-      <Hero/>
-      <Service/>
-      <Us/>
-      <Testi/>
-      <Footer/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/carimobil' element={<CariMobil/>}/>
+      </Routes>
+    </Router>
   );
 }
 
